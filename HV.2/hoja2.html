@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		<title>Hoja 2</title>
 		<link rel="stylesheet" type="text/css" href="css/Config.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="Hj2.js" ></script>
 	</head>
 	<body>
 		<header>
@@ -42,40 +44,40 @@
 
 		</nav>
 		<section>
-			<h2>Estudios.</h2>
+			<script>guardar_localstorageper1();</script>
+			
+		<h2>Estudios.</h2>
 			
 			<ul>
-			
-				<li>Bogotá D.C., Colombia.<br>
-				Titulo: Bachillerato.<br>  
-				Institucion: asdasdasdasdasdasdasdasda.</li><br>
-				<li>Bogotá, Colombia.<br>
-				Titulo: Ingeniero de sistemas.<br>
-				Institucion: Universidad Distrital Francisco Jose de Caldas.</li>
+				
+				<li><p id="locacionCol"><script>obtener_lslocaCol();</script></p>
+				 <p>Titulo:</p><p id="Titulo1"> <script>obtener_lst1();</script></p>  
+				<p>Institucion:</p> <p id="Institucion1"> <script>obtener_lsinst1();</script></li><br>
+				<li><p id="locacionUni"><script>obtener_lslocacionUni();</script>
+				 <p>Titulo:</p><p id="Titulo2"> <script>obtener_lsTitulo2();</script></p>
+				<p>Institucion:</p> <p id="Institucion2"> <script>obtener_lsInstitucion2();</script></li><br>
 			</ul>
 			
-			<h2>Intereses.</h2>
+			<h2>Intereses:</h2>
 			
 			<ul>
-				<li>Football.</li>
-				<li>Inteligencia artificial.</li>
-				<li>Analisis de datos.</li>
-				<li>Mineria de datos.</li>
-				<li>Sistemas complejos.</li>
+				<li><p id="interes1"> <script>obtener_lsinteres1();</script></li>
+				<li><p id="interes2"> <script>obtener_lsinteres2();</script></li>
+				<li><p id="interes3"> <script>obtener_lsinteres3();</script></li>
+				<li><p id="interes4"> <script>obtener_lsinteres4();</script></li>
+				<li><p id="interes5"> <script>obtener_lsinteres5();</script></li>
 			</ul>
 			
 			
 			<h2>Trabajos realizados.</h2>
 			
-				<h2>Trabajos realizados.</h2>
-			
 			<ul>
-				<li>software para la toma de desciciones , desarrollado en python<br>
-				que permitia al cliente visualizar, analizar y poder tomar desiciones gracias a las<br>
-				herramentas encotradas dentro de el.</li><br>
-				<li>aplicacion implementando base de datos registrar documentos, desarrollado en c#, en<br>
-				donde se registraba los documentos prestados cuales estaban en stock con fechas y estados.</li><br>
-				<li>software en cual permitia graficar clases y sus tipos de relacion en java.</li>
+				<li><p id="tr1Linea1"> <script>obtener_lstr1l1();</script></p>
+				<p id="tr1Linea2"> <script>obtener_lstr1l2();</script></p>
+				<p id="tr1Linea3"> <script>obtener_lstr1l3();</script></p></li>
+				<li><p id="tr2Linea1"> <script>obtener_lstr2l1();</script></p>
+				<p id="tr2zLinea2"> <script>obtener_lstr2l2();</script></p></li>
+				<li><p id="tr3Linea1"> <script>obtener_lstr3l1();</script></p></li><br></li>
 			</ul>
 
 		</section>

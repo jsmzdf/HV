@@ -6,27 +6,27 @@ function obtener_localstorage(){
 function obtener_localstoragelinea1(){
 	
 	console.log(obtener_localstorage().linea1);
-		$("#linea1").text(JSON.stringify( obtener_localstorage().linea1));
+		$("#linea1").text( obtener_localstorage().linea1);
 }
 function obtener_localstoragelinea2(){
 	
 	console.log(obtener_localstorage().linea2);
-		$("#linea2").text(JSON.stringify(  obtener_localstorage().linea2));
+		$("#linea2").text(  obtener_localstorage().linea2);
 }
 function obtener_localstoragelinea3(){
 	
 	console.log(obtener_localstorage().linea3);
-		$("#linea3").text(JSON.stringify(  obtener_localstorage().linea3));
+		$("#linea3").text( obtener_localstorage().linea3);
 }
 function obtener_localstoragelinea4(){
 	
 	console.log(obtener_localstorage().linea4);
-		$("#linea4").text(JSON.stringify(  obtener_localstorage().linea4));
+		$("#linea4").text(  obtener_localstorage().linea4);
 }
 function obtener_localstoragelinea5(){
 	
 	console.log(obtener_localstorage().linea5);
-		$("#linea5").text(JSON.stringify(  obtener_localstorage().linea5));
+		$("#linea5").text( obtener_localstorage().linea5);
 }
 function guardar_localstorageini(){
 	
